@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational_Patterns", "Creational_Patterns", "{FA4F0D1D-2159-48DF-8692-DA8BE2934C6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural_Patterns", "Structural_Patterns", "{AFC809A4-C2C4-4D80-B6D8-D6C755E4177F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior_Patterns", "Behavior_Patterns", "{DBE4EE45-D277-4B3B-8323-8D48B9574474}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
