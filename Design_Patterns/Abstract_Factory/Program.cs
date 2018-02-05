@@ -1,15 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Abstract_Factory
+﻿namespace Abstract_Factory
 {
-    class Program
+    using Clases;
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            PhoneTypeChecker checker = new PhoneTypeChecker(MANUFACTURERS.SAMSUNG);
+
+            checker.CheckProducts();
+
+            Console.ReadLine();
+
+            checker = new PhoneTypeChecker(MANUFACTURERS.HTC);
+
+            checker.CheckProducts();
+            Console.ReadLine();
+
+            checker = new PhoneTypeChecker(MANUFACTURERS.NOKIA);
+
+            checker.CheckProducts();
+            Console.Read();
         }
     }
 }

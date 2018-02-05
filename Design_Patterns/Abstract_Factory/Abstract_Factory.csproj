@@ -42,11 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Asha.cs" />
+    <Compile Include="Clases\GalaxyS2.cs" />
+    <Compile Include="Clases\Genie.cs" />
+    <Compile Include="Clases\HTCFactory.cs" />
+    <Compile Include="Clases\Lumia.cs" />
+    <Compile Include="Clases\NokiaFactory.cs" />
+    <Compile Include="Clases\PhoneTypeChecker.cs" />
+    <Compile Include="Clases\Primo.cs" />
+    <Compile Include="Clases\SamsungFactory.cs" />
+    <Compile Include="Clases\Titan.cs" />
+    <Compile Include="Interfaces\IDumb.cs" />
+    <Compile Include="Interfaces\IPhoneFactory.cs" />
+    <Compile Include="Interfaces\ISmart.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
