@@ -2,7 +2,7 @@
 {
     using Interfaces;
 
-    public class HTCFactory : IPhoneFactory
+    public class HtcFactory : IPhoneFactory
     {
         public ISmart GetSmart()
         {
