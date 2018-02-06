@@ -3,22 +3,22 @@
     using Clases;
     using System;
 
-    public class Program
+    public static class Program
     {
         private static void Main(string[] args)
         {
-            PhoneTypeChecker checker = new PhoneTypeChecker(MANUFACTURERS.SAMSUNG);
+            PhoneTypeChecker checker = new PhoneTypeChecker(Manufactura.SAMSUNG);
 
             checker.CheckProducts();
 
             Console.ReadLine();
 
-            checker = new PhoneTypeChecker(MANUFACTURERS.HTC);
+            checker = new PhoneTypeChecker(Manufactura.HTC);
 
             checker.CheckProducts();
             Console.ReadLine();
 
-            checker = new PhoneTypeChecker(MANUFACTURERS.NOKIA);
+            checker = new PhoneTypeChecker(Manufactura.NOKIA);
 
             checker.CheckProducts();
             Console.Read();

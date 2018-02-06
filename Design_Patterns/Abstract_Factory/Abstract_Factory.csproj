@@ -47,7 +47,7 @@
     <Compile Include="Clases\Asha.cs" />
     <Compile Include="Clases\GalaxyS2.cs" />
     <Compile Include="Clases\Genie.cs" />
-    <Compile Include="Clases\HTCFactory.cs" />
+    <Compile Include="Clases\HtcFactory.cs" />
     <Compile Include="Clases\Lumia.cs" />
     <Compile Include="Clases\NokiaFactory.cs" />
     <Compile Include="Clases\PhoneTypeChecker.cs" />
@@ -66,9 +66,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.7.1.4347\analyzers\Google.Protobuf.dll" />
-    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.7.1.4347\analyzers\SonarAnalyzer.CSharp.dll" />
-    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.7.1.4347\analyzers\SonarAnalyzer.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.8.1.4648\analyzers\Google.Protobuf.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.8.1.4648\analyzers\SonarAnalyzer.CSharp.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.8.1.4648\analyzers\SonarAnalyzer.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

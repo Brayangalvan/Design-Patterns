@@ -3,7 +3,7 @@
     using Interfaces;
     using System;
 
-    public enum MANUFACTURERS
+    public enum Manufactura
     {
         SAMSUNG,
         HTC,
@@ -13,9 +13,9 @@
     public class PhoneTypeChecker
     {
         private IPhoneFactory factory;
-        private readonly MANUFACTURERS manu;
+        private readonly Manufactura manu;
 
-        public PhoneTypeChecker(MANUFACTURERS m)
+        public PhoneTypeChecker(Manufactura m)
         {
             manu = m;
         }
@@ -24,15 +24,15 @@
         {
             switch (manu)
             {
-                case MANUFACTURERS.SAMSUNG:
+                case Manufactura.SAMSUNG:
                     factory = new SamsungFactory();
                     break;
 
-                case MANUFACTURERS.HTC:
-                    factory = new HTCFactory();
+                case Manufactura.HTC:
+                    factory = new HtcFactory();
                     break;
 
-                case MANUFACTURERS.NOKIA:
+                case Manufactura.NOKIA:
                     factory = new NokiaFactory();
                     break;
             }

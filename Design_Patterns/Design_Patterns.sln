@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Factory", "Abstrac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SonarQube", "SonarQube", "{D0FDF5F4-75BE-4473-94CD-3D43579F03A8}"
 	ProjectSection(SolutionItems) = preProject
-		SonarQube\AUTOTCSharp.ruleset = SonarQube\AUTOTCSharp.ruleset
+		SonarQube\Design_PatternsCSharp.ruleset = SonarQube\Design_PatternsCSharp.ruleset
 		SonarQube\SolutionBinding.sqconfig = SonarQube\SolutionBinding.sqconfig
 	EndProjectSection
 EndProject
