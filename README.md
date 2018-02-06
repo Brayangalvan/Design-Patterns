@@ -18,6 +18,8 @@ Los patrones de Creacionales son:
 # Abstrac Factory
 Es útil cuando el cliente necesita crear objetos que de alguna manera están relacionados, se utiliza por medio de interfaces  no se mezclen entre sí y haciendo transparente el tipo de familia concreta que se esté usando.
 
+#Factory Method
+
 # Patrones Estructurales
 Son utilizados para estructuras  de datos complejas. sirve para conectar los distintos objetos y que se han mantenible ("se puedan hacer cambios en  un objeto sin que estos dañe otro objeto que dependa de este").
 Los patrones de estructura son:
